@@ -1,0 +1,214 @@
+body {
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+  
+    color: #e7e7e7;
+    background-color: rgb(40, 44, 52);;
+
+    margin: 0;
+}
+
+
+/* will almost certainly cause problems later, future me problem tho */
+svg {
+  fill: rgba(255, 255, 255, 255);
+}
+
+/* Layout css */
+
+.home {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.home .nav {
+  display: flex;
+  position: fixed;
+
+  flex-direction: column;
+  align-items: center;
+
+  width: 72px;
+  height: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  padding: 0;
+  margin: 0;
+  background-color: rgb(33, 37, 42);
+}    
+
+.home .nav li {
+  background: #141414;
+  margin-top: 15px;
+  padding: 7px;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+} 
+
+.home .nav li a {
+  height: 40px;
+}
+
+.home .layout_content {
+  margin: 10px 10px 0 82px;
+  width: 100%;
+}
+
+/* Layout css  end*/
+
+
+
+/* Index, Session css */
+
+.index_content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.index_content .info {
+  text-align: center;
+}
+
+.index_content .row {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+
+
+.index_content .row .invoke {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #e7e7e7;
+  background-color: #141414;
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+}
+
+.index_content .row .invoke:hover {
+  border-color: #e7e7e7;
+}
+
+/* Index css end */
+
+/* Session css */
+
+.session_content {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.session_content .row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.session_content .title {
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 15px;
+}
+
+.session_content .row .input {
+  text-align: center;
+  width: 100px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1em;
+  font-size: 1em;
+  margin-top: 18px;
+  font-weight: 500;
+  font-family: inherit;
+  color: #e7e7e7;
+  background-color: #141414;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.session_content .invoke_div {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.session_content .invoke_div .invoke {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #e7e7e7;
+  background-color: #141414;
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+}
+
+.session_content .invoke_div .invoke:hover {
+  border-color: #e7e7e7;
+}
+
+.session_content .data {
+  margin-top: 15px;
+}
+
+/* Session css end*/
+
+/* Graph css */
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .invoke_div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.content .invoke_div .invoke {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: #e7e7e7;
+  background-color: #141414;
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+}
+
+.content .invoke_div .invoke:hover {
+  border-color: #e7e7e7;
+}
+
+/* Graph css end */
+
+
+/* RustLang css */
+
+.dave {
+  background-color: black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0px;
+}
