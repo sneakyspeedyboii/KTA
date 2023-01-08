@@ -1,5 +1,7 @@
 # Karting Time Analyser.
 
+## NVM - They changed their api again so it fetches raw html on a get request, so if I can figure out how to parse html then it will work again
+
 ## Archived - Alpha Timing removed the api I was using to download the data and the program can no longer fetch download and update times. Cannot be asked to write code to sort through html, so in the mean time this project wont be updated and wont work.
 
 In progress tauri app, for downloading and analysing karting lap times. When it is eventually finished, it should be able to cache and graph the times, aswell as turn the times into a data model which can be used for predicting future averages.
